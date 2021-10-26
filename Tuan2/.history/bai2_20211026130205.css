@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana;
+  color: #202731;
+}
+#wrapper {
+  width: 30%;
+  margin: 80px auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#form-login {
+  background-color: rgb(238, 230, 230);
+  padding: 25px;
+  position: relative;
+}
+.heading {
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+.close {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  color: #dbd8d8;
+  font-size: 26px;
+}
+.form-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: 1px solid #c1c1c1;
+  outline: 0;
+  color: #58555a;
+}
+.btn-GG {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: 1px solid #c1c1c1;
+  outline: 0;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.btn-GG:hover {
+  color: azure;
+  background-color: #3c64f5;
+  transition: 0.4s ease-in-out;
+}
+.fab {
+  margin-right: 5px;
+}
+.form-group p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.form-submit {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: 1px solid #c1c1c1;
+  outline: 0;
+  font-size: 16px;
+}
+.forgot {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.forgot a {
+  color: #202731;
+  text-decoration: none;
+}
+.forgot a:hover {
+  color: #3c64f5;
+  transition: 0.4s ease-in-out;
+}

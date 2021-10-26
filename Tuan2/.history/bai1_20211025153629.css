@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Perpetua;
+}
+.sign {
+  width: 30%;
+  margin: 100px auto;
+  background-color: aqua;
+}
+.music {
+  width: 100%;
+  height: 180px;
+}
+h1 {
+  text-align: center;
+  margin-top: 28px;
+}
+.something {
+  width: 80%;
+  margin: 12px auto;
+}
+.something p {
+  text-align: center;
+  font-size: 21px;
+}
+.cost {
+  background-color: darkgrey;
+  width: 60%;
+}

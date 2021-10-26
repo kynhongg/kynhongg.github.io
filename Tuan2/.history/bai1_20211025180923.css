@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Perpetua;
+  background-color: #71ecfa;
+}
+.sign {
+  width: 30%;
+  margin: 80px auto;
+  background-color: white;
+  border-radius: 4%;
+  overflow: hidden;
+}
+.music {
+  width: 100%;
+  height: 180px;
+}
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+.something {
+  width: 80%;
+  margin: 12px auto;
+}
+p {
+  text-align: center;
+  font-size: 21px;
+}
+.cost {
+  background-color: #ebf0f2;
+  width: 75%;
+  margin: 25px auto;
+  display: flex;
+  height: 90px;
+  border-radius: 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  width: 75%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+.btn1:hover {
+  color: azure;
+  background-color: #3c64f5;
+  transition: 0.4s ease-in;
+}
+
+.btn2 {
+  margin-top: 7px;
+  margin-bottom: 35px;
+  width: 75%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+.btn2:hover {
+  color: azure;
+  background-color: #3c64f5;
+  transition: 0.4s ease-in;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 18px 25px 20px;
+}
+.name {
+  margin-top: 20px;
+}
+.change {
+  margin-top: 32px;
+  margin-left: 85px;
+  font-size: 18px;
+}
+.money {
+  color: rgb(104, 102, 102);
+}
