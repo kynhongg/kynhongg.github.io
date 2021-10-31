@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+  font-size: 18px;
+  color: #041b2d;
+}
+.box {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+}
+
+.header {
+  width: 80%;
+  height: 80px;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  grid-gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #041b2d;
+}
+.wedo {
+  display: flex;
+}
+.wedo p {
+  margin-left: 7px;
+}
+.btn-talk {
+  border: 1px solid #848484;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+  color: #041b2d;
+  font-size: 16px;
+}
+.content {
+  width: 80%;
+  display: flex;
+}
+.art {
+  width: 45%;
+  height: 300px;
+}

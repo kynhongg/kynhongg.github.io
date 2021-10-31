@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+}
+.box {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+}
+
+.header {
+  width: 80%;
+  height: 80px;
+  margin: 20px auto;
+  background-color: rgb(156, 156, 231);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  grid-gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+.wedo {
+  display: flex;
+}
+.wedo p {
+  margin-left: 7px;
+}
+.talk {
+  border: 1px solid #848484;
+  width: 12%;
+  height: 20px;
+}

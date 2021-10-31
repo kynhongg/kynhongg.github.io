@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+}
+.box {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+}
+.header {
+  margin: 10px 50px;
+  background-color: bisque;
+}
+.wedo {
+  display: flex;
+}
+.wedo p {
+  margin-left: 7px;
+}

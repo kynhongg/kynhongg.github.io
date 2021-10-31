@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+  font-size: 18px;
+  color: #041b2d;
+}
+.box {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+  padding: 30px 0;
+}
+
+.header {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  grid-gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #041b2d;
+}
+.wedo {
+  display: flex;
+}
+.wedo p {
+  margin-left: 7px;
+}
+.btn-talk {
+  border: 1px solid #848484;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+  color: #041b2d;
+  font-size: 16px;
+}
+.content {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.art {
+  width: 48%;
+  height: 43vh;
+  border-radius: 40% 0 27% 27%;
+}
+.youridea {
+  width: 40%;
+}
+.youridea h1 {
+  font-size: 50px;
+}
+.youridea p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.started {
+  margin-top: 40px;
+  width: 30%;
+  height: 50px;
+  border: 1px solid #848484;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.learn {
+  border: 1px solid #848484;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.footer {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.meet {
+  width: 20%;
+}
+.meet p {
+  margin-top: 30px;
+}
+.footer img {
+  width: 17%;
+  height: 155px;
+  object-fit: cover;
+  grid-gap: 3em;
+  border: 1px solid #848484;
+  border-radius: 10px;
+}
