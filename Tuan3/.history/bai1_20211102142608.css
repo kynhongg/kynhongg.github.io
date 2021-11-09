@@ -18,18 +18,11 @@
   grid-gap: 15px;
 }
 
-.container-h {
+/* .container-h {
   display: flex;
   align-items: center;
-}
+} */
 
 .container-t {
   display: flex;
-}
-.box-1 {
-  display: flex;
-}
-.box-2 {
-  display: flex;
-  justify-content: flex-end;
 }
