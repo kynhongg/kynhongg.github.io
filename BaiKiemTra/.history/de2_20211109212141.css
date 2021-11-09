@@ -77,13 +77,10 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
+  grid-gap: 15px;
 }
 .box img {
-  width: 234px;
+  width: 200px;
   height: 100px;
 }
 .box p {
